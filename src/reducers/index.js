@@ -1,6 +1,10 @@
-import productReducer from './productsReducer'
+import productsReducer from './productsReducer'
+import alertReducer from './alertReducer'
+
 import {combineReducers} from 'redux'
 
+
 export default combineReducers({
-    products: productReducer
+    products: productsReducer,
+    alert: alertReducer
 })
